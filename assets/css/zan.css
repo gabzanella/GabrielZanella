@@ -540,9 +540,6 @@ nav a:hover { color: var(--white); text-decoration: underline; }
 }
 .brand:hover .brand-name { color: var(--lilac); }
 
-/* Longer Portuguese headline */
-.h1-lead { font-size: clamp(2rem, 5.6vw, 3.5rem); }
-
 /* WhatsApp button */
 .btn-wa {
   display: inline-flex;
@@ -573,7 +570,7 @@ nav a:hover { color: var(--white); text-decoration: underline; }
 .fee-panel .btn + .btn { margin-top: 10px; }
 
 @media (min-width: 641px) {
-  .hero-text { max-width: 820px; }
+  .hero-text { max-width: 720px; }
   .contact-m { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 16px; }
   .contact-m p { flex-basis: 100%; max-width: none; margin: 1.2em 0 0; color: var(--lilac); font-size: 0.98rem; }
   .contact-m .email { display: inline-block; margin-top: 6px; }
