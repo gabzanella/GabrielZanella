@@ -583,3 +583,21 @@ nav a:hover { color: var(--white); text-decoration: underline; }
   .hero .actions .btn { padding-left: 1em; padding-right: 1em; }
   .hero .actions .btn { text-align: center; justify-content: center; }
 }
+
+/* ---------- v6: mobile hero, support text first, mini menu ---------- */
+.hero-mini { display: flex; gap: 26px; font-family: var(--display); font-size: 0.98rem; }
+.hero-mini a { color: var(--lilac); text-decoration: none; }
+.hero-mini a:hover { color: var(--white); text-decoration: underline; }
+@media (max-width: 640px) {
+  .hero { padding-bottom: 26px; }
+  .hero h1 { margin-bottom: 0.6em; }
+  .hero .lede { margin-bottom: 0; }
+  .hero .actions { margin-top: 150px; }
+  .hero-mini {
+    margin-top: 44px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(230, 211, 232, 0.18);
+    justify-content: center;
+    gap: 20px;
+  }
+}
