@@ -578,7 +578,7 @@ nav a:hover { color: var(--white); text-decoration: underline; }
 
 /* ---------- v4: mobile hero ---------- */
 @media (max-width: 640px) {
-  .hero h1 { margin-bottom: 1.1em; }
+  .hero h1 { margin-bottom: 2.2em; }
   .hero .actions { flex-direction: column; align-items: stretch; gap: 12px; max-width: 360px; }
   .hero .actions .btn { padding-left: 1em; padding-right: 1em; }
   .hero .actions .btn { text-align: center; justify-content: center; }
