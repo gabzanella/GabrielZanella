@@ -601,3 +601,17 @@ nav a:hover { color: var(--white); text-decoration: underline; }
     gap: 20px;
   }
 }
+
+/* ---------- v9: subtle "Gratuita" tag ---------- */
+.tag-free {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--heather);
+  background: var(--tint);
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-top: 2px;
+}
