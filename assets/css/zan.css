@@ -575,3 +575,11 @@ nav a:hover { color: var(--white); text-decoration: underline; }
   .contact-m p { flex-basis: 100%; max-width: none; margin: 1.2em 0 0; color: var(--lilac); font-size: 0.98rem; }
   .contact-m .email { display: inline-block; margin-top: 6px; }
 }
+
+/* ---------- v4: mobile hero ---------- */
+@media (max-width: 640px) {
+  .hero h1 { margin-bottom: 1.1em; }
+  .hero .actions { flex-direction: column; align-items: stretch; gap: 12px; max-width: 360px; }
+  .hero .actions .btn { padding-left: 1em; padding-right: 1em; }
+  .hero .actions .btn { text-align: center; justify-content: center; }
+}
