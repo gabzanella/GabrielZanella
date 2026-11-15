@@ -603,7 +603,7 @@ nav a:hover { color: var(--white); text-decoration: underline; }
 }
 
 /* ---------- v9: subtle "Gratuita" tag ---------- */
-.tag-free {
+.tag-free, .tag {
   display: inline-block;
   font-family: var(--display);
   font-weight: 700;
@@ -615,3 +615,8 @@ nav a:hover { color: var(--white); text-decoration: underline; }
   border-radius: 999px;
   margin-top: 2px;
 }
+
+/* ---------- v10: Online / Gratuita tags, no intro line in Agendamento ---------- */
+.fees dd.tags { flex-direction: row; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+#fees .split-head h2 + h3 { margin-top: 0.2em; }
+@media (max-width: 640px) { .fees dd.tags { justify-content: flex-start; } }
